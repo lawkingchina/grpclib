@@ -3,7 +3,7 @@ import asyncio
 from grpclib.client import Channel
 
 from .helloworld_pb2 import HelloRequest
-from .helloworld_grpc import GreeterStub
+from .helloworld_grpclib import GreeterStub
 
 
 async def main() -> None:

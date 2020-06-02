@@ -8,7 +8,7 @@ from grpclib.server import Server, Stream
 from grpclib.events import listen, RecvRequest
 
 from helloworld.helloworld_pb2 import HelloRequest, HelloReply
-from helloworld.helloworld_grpc import GreeterBase
+from helloworld.helloworld_grpclib import GreeterBase
 
 
 XRequestId = Optional[str]

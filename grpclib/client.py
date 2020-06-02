@@ -557,7 +557,7 @@ class Channel:
     .. code-block:: python3
 
         channel = Channel()
-        client = cafe_grpc.CoffeeMachineStub(channel)
+        client = cafe_grpclib.CoffeeMachineStub(channel)
 
         ...
 

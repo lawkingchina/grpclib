@@ -4,7 +4,7 @@ from grpclib.utils import graceful_exit
 from grpclib.server import Server, Stream
 
 from .helloworld_pb2 import HelloRequest, HelloReply
-from .helloworld_grpc import GreeterBase
+from .helloworld_grpclib import GreeterBase
 
 
 class Greeter(GreeterBase):

@@ -5,7 +5,7 @@ from grpclib.client import Channel
 from grpclib.events import listen, SendRequest
 
 from helloworld.helloworld_pb2 import HelloRequest
-from helloworld.helloworld_grpc import GreeterStub
+from helloworld.helloworld_grpclib import GreeterStub
 
 
 async def on_send_request(event: SendRequest) -> None:
